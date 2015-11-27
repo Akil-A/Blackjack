@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">s181142_mappe3</string>
+    <string name="action_rules">Regler</string>
+    <string name="blackjack_title">Blackjack</string>
+    <string name="dealer_blackjack_message">Dealer har Blackjack, du tapte!</string>
+    <string name="dealer_busted_message">Dealer bustet, du vant!</string>
+    <string name="you_lost_less_points_message">Du har mindre poeng enn Dealer og tapte!</string>
+    <string name="draw_message">Det er uavgjort, du vil få pengene tilbake!</string>
+    <string name="you_won_more_points_message">Du har mer poeng enn Dealer og vant!</string>
+    <string name="points">"Poeng: "</string>
+    <string name="you_have_blackjack">Du har Blackjack og vant!</string>
+    <string name="auto_stand_message">Du har 21 poeng og står auto!</string>
+    <string name="you_busted_lost_message">Du bustet og tapte!</string>
+    <string name="bet_message">Sats mellom $1 til $</string>
+    <string name="broke_message">Du er blakk, penger har blitt fylt på!</string>
+    <string name="white_color">#FFFFFF</string>
+    <string name="dollar_sign">$</string>
+    <string name="refills">"Påfyllinger: "</string>
+    <string name="rules_title">Regler</string>
+    <string name="bet">Sats:</string>
+    <string name="rules_content">Sats mellom $1 til så mye penger du har og trykk på Deal knappen for å få kort. \n\nVed å trykke på Hit får du en ny kort. \n\nVed å trykke på Stand får du ikke flere kort. \n\nAlle kort fra 1-10 har verdi som kortet tilsier, Knekt, Dronning og Konge har verdi 10. Ess har verdi 1 eller 11, Ess skifter verdi til 1 eller 11 automatisk i forhold til hva som er best for deg. \n\nMålet er å få totalt poeng nærmest 21, hvis du får mer poeng enn 21 taper du/buster. \n\nSpillet starter med at du og Dealeren får to kort hver. Dealeren viser ikke andre kortet sitt før du trykker på Stand. \n\nNår du trykker på Stand vil Dealeren få tildelt kort og Dealeren må ta Stand hvis Dealeren får totalt 17 poeng eller over. Hvis Dealeren får over 21 poeng/buster vinner du. \n\nEksempel: Du får tildelt 2, Konge, Ess. Dette tilsvarer 2+10+11 = 23 poeng, dette betyr at du tapte fordi det er mer enn 21 poeng, men Ess har verdi 1 og 11 så derfor vil Ess forrandre verdien sin til 1 automatisk og da vil du ha 2+10+1 = 13 poeng og du kan forsette å spille \n\nHvis noen får 21 poeng på første to første kort har man BlackJack og man vinner 2.5 ganger det man har satset. \n\nHvis man taper, taper man det man har satset. Hvis det er uavgjort får man satsen sin tilbake. Hvis man vinner får man 2 ganger det man har satset</string>
+</resources>

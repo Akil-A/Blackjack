@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:id="@+id/main_layout"
+    android:background="@drawable/board">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_holder"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/dealer_card_holder">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView11"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView12"
+            android:layout_alignStart= "@id/imageView11"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView13"
+            android:layout_alignStart= "@id/imageView12"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView14"
+            android:layout_alignStart= "@id/imageView13"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView15"
+            android:layout_alignStart= "@id/imageView14"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView16"
+            android:layout_alignStart= "@id/imageView15"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView17"
+            android:layout_alignStart= "@id/imageView16"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView18"
+            android:layout_alignStart= "@id/imageView17"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView19"
+            android:layout_alignStart= "@id/imageView18"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView20"
+            android:layout_alignStart= "@id/imageView19"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView21"
+            android:layout_alignStart= "@id/imageView20"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView22"
+            android:layout_alignStart= "@id/imageView21"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="11dp"/>
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="60dp"
+            android:gravity="bottom|center_horizontal"
+            android:id="@+id/player_card_holder">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView0"
+                    android:layout_centerHorizontal="true"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView1"
+                    android:layout_alignStart= "@id/imageView0"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView2"
+                    android:layout_alignStart= "@id/imageView1"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp" />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView3"
+                    android:layout_alignStart= "@id/imageView2"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView4"
+                    android:layout_alignStart= "@id/imageView3"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView5"
+                    android:layout_alignStart= "@id/imageView4"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView6"
+                    android:layout_alignStart= "@id/imageView5"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView7"
+                    android:layout_alignStart= "@id/imageView6"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView8"
+                    android:layout_alignStart= "@id/imageView7"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView9"
+                    android:layout_alignStart= "@id/imageView8"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView10"
+                    android:layout_alignStart= "@id/imageView9"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView011"
+                    android:layout_alignStart= "@id/imageView10"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="11dp"/>
+
+        </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/action_holder"
+        android:background="#000000">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/hitbutton"
+            android:id="@+id/hit_button"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:id="@+id/stand_button"
+            android:background="@drawable/standbutton"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:id="@+id/deal_button"
+            android:background="@drawable/dealbutton"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/action_holder">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:id="@+id/point_holder"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/action_holder">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:id="@+id/bet_text"
+            android:layout_gravity="bottom"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:text="@string/bet" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:id="@+id/bet_holder"
+            android:layout_gravity="end"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:maxLength="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:id="@+id/dealer_point_holder"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">s181142_mappe3</string>
+    <string name="snackbar_color_red">#91152D</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="action_rules">Rules</string>
+    <string name="blackjack_title">Blackjack</string>
+    <string name="dealer_blackjack_message">Dealer has Blackjack, you lost!</string>
+    <string name="dealer_busted_message">Dealer busted, you won!</string>
+    <string name="you_lost_less_points_message">You have less points than Dealer and lost!</string>
+    <string name="draw_message">You have drawn and will get your money back!</string>
+    <string name="you_won_more_points_message">You have more points than Dealer and won!</string>
+    <string name="points">"Points: "</string>
+    <string name="you_have_blackjack">You have Blackjack and won!</string>
+    <string name="auto_stand_message">You have 21 points and will stand auto!</string>
+    <string name="you_busted_lost_message">You busted and lost!</string>
+    <string name="bet_message">Bet has to be from $1 to $</string>
+    <string name="broke_message">You are broke, money has been refilled!</string>
+    <string name="white_color">#FFFFFF</string>
+    <string name="dollar_sign">$</string>
+    <string name="refills">"Refills: "</string>
+    <string name="rules_title">Rules</string>
+    <string name="rules_content">Bet between $1 to amount of money you have and press Deal button to get a card. \n\nIf you press Hit you will get a new card \n\nIf you press Stand you will not get more cards. \n\nEvery card from 1-10 value equals their face value, Jack,  Queen and King has value of 10. Ace has value of 1 or 11. Ace changes value to 1 or 11 automatically to suit your best situation. \n\nThe goal is to get points as close as 21 possible, if you get more points than 21 you will lose/bust. \n\nIn the beginning of the  game you and Dealer will be dealt two cards each. The Dealer will not show his second card before you press Stand. \n\nWhen you press Stand the Dealer will be dealt cards and Dealer have to Stand if Dealer has 17 points or over. If Dealer gets over 21 points/busts, you will win. \n\nExample: You have been dealt 2, King, Ace. This will give you 2+10+11 = 23 points, this means that you will lose because you have more than 21 points, but Ace has value of 1 and 11 so Ace will change its value to 1 automatically and then you will get 2+10+1 = 13 points and you can continue to play.  \n\nIf someone gets 21 points on their first two cards they will have Blackjack and then you win 2.5 times your bet. \n\nIf you lose, you will lose your bet. If you draw you will get your bet back. If you win you will get 2 times your bet.</string>
+    <string name="bet">Bet:</string>
+</resources>
